@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E1316D7D2892F7AA00788B62 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1316D7C2892F7AA00788B62 /* Rational.swift */; };
+		E1316D7F2893201200788B62 /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1316D7E2893201200788B62 /* RecipeHighlights.swift */; };
+		E1316D842893263700788B62 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1316D822893263700788B62 /* Roboto-Bold.ttf */; };
+		E1316D862893264F00788B62 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1316D852893264E00788B62 /* Roboto-Regular.ttf */; };
 		E13879C728849DBF00D34EAB /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13879C628849DBF00D34EAB /* RecipeListView.swift */; };
 		E13879C928849DDC00D34EAB /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13879C828849DDC00D34EAB /* RecipeDetailView.swift */; };
 		E146AC27289026B4005F9A15 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146AC26289026B4005F9A15 /* RecipeFeaturedView.swift */; };
@@ -43,6 +46,10 @@
 
 /* Begin PBXFileReference section */
 		E1316D7C2892F7AA00788B62 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		E1316D7E2893201200788B62 /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
+		E1316D822893263700788B62 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E1316D852893264E00788B62 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E1316D892893299800788B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E13879C628849DBF00D34EAB /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		E13879C828849DDC00D34EAB /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		E146AC26289026B4005F9A15 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
@@ -95,6 +102,15 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		E1316D802893262400788B62 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E1316D822893263700788B62 /* Roboto-Bold.ttf */,
+				E1316D852893264E00788B62 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E18A844D28849A6E0049008C = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +134,8 @@
 		E18A845828849A6E0049008C /* recipe-list-app-m4 */ = {
 			isa = PBXGroup;
 			children = (
+				E1316D892893299800788B62 /* Info.plist */,
+				E1316D802893262400788B62 /* Fonts */,
 				E1316D7B2892F76300788B62 /* Utilities */,
 				E18A848728849B580049008C /* Views */,
 				E18A848628849B510049008C /* ViewModels */,
@@ -195,6 +213,7 @@
 				E13879C828849DDC00D34EAB /* RecipeDetailView.swift */,
 				E18A84C62884B5D20049008C /* RecipeTabView.swift */,
 				E146AC26289026B4005F9A15 /* RecipeFeaturedView.swift */,
+				E1316D7E2893201200788B62 /* RecipeHighlights.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -304,6 +323,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E18A846128849A700049008C /* Preview Assets.xcassets in Resources */,
+				E1316D842893263700788B62 /* Roboto-Bold.ttf in Resources */,
+				E1316D862893264F00788B62 /* Roboto-Regular.ttf in Resources */,
 				E18A848928849BE90049008C /* recipes.json in Resources */,
 				E18A845E28849A700049008C /* Assets.xcassets in Resources */,
 			);
@@ -332,6 +353,7 @@
 			files = (
 				E18A848B28849C0E0049008C /* DataService.swift in Sources */,
 				E13879C928849DDC00D34EAB /* RecipeDetailView.swift in Sources */,
+				E1316D7F2893201200788B62 /* RecipeHighlights.swift in Sources */,
 				E1316D7D2892F7AA00788B62 /* Rational.swift in Sources */,
 				E18A848F28849D040049008C /* RecipeModel.swift in Sources */,
 				E13879C728849DBF00D34EAB /* RecipeListView.swift in Sources */,
@@ -499,6 +521,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"recipe-list-app-m4/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recipe-list-app-m4/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -527,6 +551,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"recipe-list-app-m4/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recipe-list-app-m4/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
